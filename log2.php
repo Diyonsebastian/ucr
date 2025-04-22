@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($password === $stored_password) { // In production, use password_verify() for hashed passwords
             $_SESSION['user_id'] = $user_id;
-            echo "<script>alert('Login successful!'); window.location.href='dashboard.php';</script>";
+            echo "<script>alert('Login successful!'); window.location.href='Dashboard.php';</script>";
         } else {
             echo "<script>alert('Invalid email or password!'); window.location.href='login.php';</script>";
         }
