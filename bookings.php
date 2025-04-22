@@ -217,7 +217,7 @@ System: 40px;
                 <p class="no-receipts">You have no previous bookings.</p>
             <?php endif; ?>
         </div>
-        <a href="dashboard.php" class="back-btn">Back to Dashboard</a>
+        <a href="Dashboard.php" class="back-btn">Back to Dashboard</a>
     </div>
 </body>
 </html>
